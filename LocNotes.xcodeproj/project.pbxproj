@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* AppDelegate_Pad.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate_Pad.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		2819307D112F81BE00ECF9B4 /* LocNotes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2819307C112F81BE00ECF9B4 /* LocNotes.xcdatamodeld */; };
+		2860E38A111B897F00E27156 /* AppDelegate_Phone.m in Sources */ = {isa = PBXBuildFile; fileRef = 2860E388111B897F00E27156 /* AppDelegate_Phone.m */; };
+		2860E38B111B897F00E27156 /* MainWindow_Phone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2860E389111B897F00E27156 /* MainWindow_Phone.xib */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow_Pad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow_Pad.xib */; };
+		28EEBFDD1118E19E00187D67 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28EEBFDC1118E19E00187D67 /* CoreData.framework */; };
+		28EEC04B1118E28000187D67 /* AppDelegate_Shared.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EEC04A1118E28000187D67 /* AppDelegate_Shared.m */; };
+		8309F71C12542469003A5CE5 /* ManageSynonymsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8309F71B12542469003A5CE5 /* ManageSynonymsTableViewController.m */; };
+		831C720C11EC0C8A00A53BB2 /* NotesBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 831C720A11EC0C8A00A53BB2 /* NotesBrowserViewController.m */; };
+		831C720D11EC0C8A00A53BB2 /* NotesBrowserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 831C720B11EC0C8A00A53BB2 /* NotesBrowserViewController.xib */; };
+		832EF0A9123EFC0800FD8A64 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 832EF0A8123EFC0800FD8A64 /* iTunesArtwork */; };
+		832EF0B0123EFD0200FD8A64 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 832EF0AA123EFD0200FD8A64 /* Icon-72.png */; };
+		832EF0B1123EFD0200FD8A64 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 832EF0AB123EFD0200FD8A64 /* Icon-Small-50.png */; };
+		832EF0B2123EFD0200FD8A64 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 832EF0AC123EFD0200FD8A64 /* Icon-Small.png */; };
+		832EF0B3123EFD0200FD8A64 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 832EF0AD123EFD0200FD8A64 /* Icon-Small@2x.png */; };
+		832EF0B4123EFD0200FD8A64 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 832EF0AE123EFD0200FD8A64 /* Icon.png */; };
+		832EF0B5123EFD0200FD8A64 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 832EF0AF123EFD0200FD8A64 /* Icon@2x.png */; };
+		832EF11A123F135C00FD8A64 /* settings_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 832EF118123F135C00FD8A64 /* settings_icon.png */; };
+		832EF11B123F135C00FD8A64 /* settings_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 832EF119123F135C00FD8A64 /* settings_icon@2x.png */; };
+		832EF13F123F18C700FD8A64 /* Default~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 832EF13D123F18C700FD8A64 /* Default~iphone.png */; };
+		832EF140123F18C700FD8A64 /* Default~iphone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 832EF13E123F18C700FD8A64 /* Default~iphone@2x.png */; };
+		832EF14A123F1A8A00FD8A64 /* Defaultipad-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 832EF149123F1A8A00FD8A64 /* Defaultipad-Portrait.png */; };
+		832EF16E123F1D3200FD8A64 /* Defaultipad-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 832EF16D123F1D3200FD8A64 /* Defaultipad-Landscape.png */; };
+		8388D7E9121254ED00B4FAAB /* LocaytaSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8388D7E8121254ED00B4FAAB /* LocaytaSearch.framework */; };
+		8396F63D11EDB20100F1DF5D /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8396F63B11EDB20100F1DF5D /* InfoViewController.m */; };
+		8396F63E11EDB20100F1DF5D /* InfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8396F63C11EDB20100F1DF5D /* InfoViewController.xib */; };
+		8396F8C911EEF8FC00F1DF5D /* ShareViewTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8396F8C711EEF8FC00F1DF5D /* ShareViewTableController.m */; };
+		8396F8CA11EEF8FC00F1DF5D /* ShareViewTableController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8396F8C811EEF8FC00F1DF5D /* ShareViewTableController.xib */; };
+		8396F91E11EEFD6F00F1DF5D /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8396F91D11EEFD6F00F1DF5D /* MessageUI.framework */; };
+		83A667EE11AD264E0058823E /* SearchDatabaseUpdater.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A667ED11AD264E0058823E /* SearchDatabaseUpdater.m */; };
+		83A6683A11AE093E0058823E /* notes_search_schema.plist in Resources */ = {isa = PBXBuildFile; fileRef = 83A6683911AE093E0058823E /* notes_search_schema.plist */; };
+		83A84C3211AA21110048D9DF /* NotesBrowserTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A84C3011AA21110048D9DF /* NotesBrowserTableViewController.m */; };
+		83A84C3311AA21110048D9DF /* NotesBrowserTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83A84C3111AA21110048D9DF /* NotesBrowserTableViewController.xib */; };
+		83A84C4C11AA227B0048D9DF /* EditNoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A84C4A11AA227B0048D9DF /* EditNoteViewController.m */; };
+		83A84C4D11AA227B0048D9DF /* EditNoteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83A84C4B11AA227B0048D9DF /* EditNoteViewController.xib */; };
+		83A84C6B11AA47190048D9DF /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A84C6A11AA47190048D9DF /* Note.m */; };
+		83A84C6E11AA47570048D9DF /* Note+Management.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A84C6D11AA47570048D9DF /* Note+Management.m */; };
+		83CA501A11BE4AED0020745A /* SearchDatabaseRequester.m in Sources */ = {isa = PBXBuildFile; fileRef = 83CA501911BE4AED0020745A /* SearchDatabaseRequester.m */; };
+		83CC7CCB1225FD9400FD0354 /* SettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83CC7CC91225FD9400FD0354 /* SettingsTableViewController.m */; };
+		83CC7CCC1225FD9400FD0354 /* SettingsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83CC7CCA1225FD9400FD0354 /* SettingsTableViewController.xib */; };
+		83CC7D30122602DB00FD0354 /* ManageSynonymsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83CC7D2E122602DB00FD0354 /* ManageSynonymsViewController.m */; };
+		83CC7D31122602DB00FD0354 /* ManageSynonymsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83CC7D2F122602DB00FD0354 /* ManageSynonymsViewController.xib */; };
+		83CC7E1F12263F0F00FD0354 /* EditSynonymCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83CC7E1E12263F0F00FD0354 /* EditSynonymCell.xib */; };
+		83CC7E2212263F1C00FD0354 /* EditSynonymCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 83CC7E2112263F1C00FD0354 /* EditSynonymCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* AppDelegate_Pad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate_Pad.h; path = iPad/AppDelegate_Pad.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* AppDelegate_Pad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate_Pad.m; path = iPad/AppDelegate_Pad.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* LocNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2860E387111B897F00E27156 /* AppDelegate_Phone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate_Phone.h; sourceTree = "<group>"; };
+		2860E388111B897F00E27156 /* AppDelegate_Phone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate_Phone.m; sourceTree = "<group>"; };
+		2860E389111B897F00E27156 /* MainWindow_Phone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow_Phone.xib; sourceTree = "<group>"; };
+		2870939E111907710040F596 /* LocNotes.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = LocNotes.xcdatamodel; sourceTree = "<group>"; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow_Pad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainWindow_Pad.xib; path = iPad/MainWindow_Pad.xib; sourceTree = "<group>"; };
+		28EEBFDC1118E19E00187D67 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		28EEC0491118E28000187D67 /* AppDelegate_Shared.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate_Shared.h; path = Shared/AppDelegate_Shared.h; sourceTree = "<group>"; };
+		28EEC04A1118E28000187D67 /* AppDelegate_Shared.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate_Shared.m; path = Shared/AppDelegate_Shared.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Shared/main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* LocNotes_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocNotes_Prefix.pch; sourceTree = "<group>"; };
+		8309F71A12542469003A5CE5 /* ManageSynonymsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManageSynonymsTableViewController.h; sourceTree = "<group>"; };
+		8309F71B12542469003A5CE5 /* ManageSynonymsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManageSynonymsTableViewController.m; sourceTree = "<group>"; };
+		831C720911EC0C8A00A53BB2 /* NotesBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotesBrowserViewController.h; sourceTree = "<group>"; };
+		831C720A11EC0C8A00A53BB2 /* NotesBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotesBrowserViewController.m; sourceTree = "<group>"; };
+		831C720B11EC0C8A00A53BB2 /* NotesBrowserViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotesBrowserViewController.xib; sourceTree = "<group>"; };
+		8325D9E611C9CC2C00D83136 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		832EF0A8123EFC0800FD8A64 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		832EF0AA123EFD0200FD8A64 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "Images/Icon-72.png"; sourceTree = "<group>"; };
+		832EF0AB123EFD0200FD8A64 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50.png"; path = "Images/Icon-Small-50.png"; sourceTree = "<group>"; };
+		832EF0AC123EFD0200FD8A64 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small.png"; path = "Images/Icon-Small.png"; sourceTree = "<group>"; };
+		832EF0AD123EFD0200FD8A64 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@2x.png"; path = "Images/Icon-Small@2x.png"; sourceTree = "<group>"; };
+		832EF0AE123EFD0200FD8A64 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = Images/Icon.png; sourceTree = "<group>"; };
+		832EF0AF123EFD0200FD8A64 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "Images/Icon@2x.png"; sourceTree = "<group>"; };
+		832EF118123F135C00FD8A64 /* settings_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = settings_icon.png; path = Images/settings_icon.png; sourceTree = "<group>"; };
+		832EF119123F135C00FD8A64 /* settings_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "settings_icon@2x.png"; path = "Images/settings_icon@2x.png"; sourceTree = "<group>"; };
+		832EF13D123F18C700FD8A64 /* Default~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default~iphone.png"; path = "Images/Default~iphone.png"; sourceTree = "<group>"; };
+		832EF13E123F18C700FD8A64 /* Default~iphone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default~iphone@2x.png"; path = "Images/Default~iphone@2x.png"; sourceTree = "<group>"; };
+		832EF149123F1A8A00FD8A64 /* Defaultipad-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Defaultipad-Portrait.png"; path = "Images/Defaultipad-Portrait.png"; sourceTree = "<group>"; };
+		832EF16D123F1D3200FD8A64 /* Defaultipad-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Defaultipad-Landscape.png"; path = "Images/Defaultipad-Landscape.png"; sourceTree = "<group>"; };
+		8388D7E8121254ED00B4FAAB /* LocaytaSearch.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocaytaSearch.framework; path = /Users/chris/Library/Frameworks/LocaytaSearch.framework; sourceTree = "<absolute>"; };
+		8396F63A11EDB20100F1DF5D /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		8396F63B11EDB20100F1DF5D /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		8396F63C11EDB20100F1DF5D /* InfoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoViewController.xib; sourceTree = "<group>"; };
+		8396F8C611EEF8FC00F1DF5D /* ShareViewTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareViewTableController.h; sourceTree = "<group>"; };
+		8396F8C711EEF8FC00F1DF5D /* ShareViewTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareViewTableController.m; sourceTree = "<group>"; };
+		8396F8C811EEF8FC00F1DF5D /* ShareViewTableController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShareViewTableController.xib; sourceTree = "<group>"; };
+		8396F91D11EEFD6F00F1DF5D /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		83A667EC11AD264E0058823E /* SearchDatabaseUpdater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchDatabaseUpdater.h; sourceTree = "<group>"; };
+		83A667ED11AD264E0058823E /* SearchDatabaseUpdater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchDatabaseUpdater.m; sourceTree = "<group>"; };
+		83A6683911AE093E0058823E /* notes_search_schema.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = notes_search_schema.plist; sourceTree = "<group>"; };
+		83A84C2F11AA21110048D9DF /* NotesBrowserTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotesBrowserTableViewController.h; sourceTree = "<group>"; };
+		83A84C3011AA21110048D9DF /* NotesBrowserTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotesBrowserTableViewController.m; sourceTree = "<group>"; };
+		83A84C3111AA21110048D9DF /* NotesBrowserTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotesBrowserTableViewController.xib; sourceTree = "<group>"; };
+		83A84C4911AA227B0048D9DF /* EditNoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditNoteViewController.h; sourceTree = "<group>"; };
+		83A84C4A11AA227B0048D9DF /* EditNoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditNoteViewController.m; sourceTree = "<group>"; };
+		83A84C4B11AA227B0048D9DF /* EditNoteViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditNoteViewController.xib; sourceTree = "<group>"; };
+		83A84C6911AA47190048D9DF /* Note.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Note.h; sourceTree = "<group>"; };
+		83A84C6A11AA47190048D9DF /* Note.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Note.m; sourceTree = "<group>"; };
+		83A84C6C11AA47570048D9DF /* Note+Management.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Note+Management.h"; sourceTree = "<group>"; };
+		83A84C6D11AA47570048D9DF /* Note+Management.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Note+Management.m"; sourceTree = "<group>"; };
+		83CA501811BE4AED0020745A /* SearchDatabaseRequester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchDatabaseRequester.h; sourceTree = "<group>"; };
+		83CA501911BE4AED0020745A /* SearchDatabaseRequester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchDatabaseRequester.m; sourceTree = "<group>"; };
+		83CC7CC81225FD9400FD0354 /* SettingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsTableViewController.h; sourceTree = "<group>"; };
+		83CC7CC91225FD9400FD0354 /* SettingsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsTableViewController.m; sourceTree = "<group>"; };
+		83CC7CCA1225FD9400FD0354 /* SettingsTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsTableViewController.xib; sourceTree = "<group>"; };
+		83CC7D2D122602DB00FD0354 /* ManageSynonymsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManageSynonymsViewController.h; sourceTree = "<group>"; };
+		83CC7D2E122602DB00FD0354 /* ManageSynonymsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManageSynonymsViewController.m; sourceTree = "<group>"; };
+		83CC7D2F122602DB00FD0354 /* ManageSynonymsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ManageSynonymsViewController.xib; sourceTree = "<group>"; };
+		83CC7E1E12263F0F00FD0354 /* EditSynonymCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditSynonymCell.xib; sourceTree = "<group>"; };
+		83CC7E2012263F1C00FD0354 /* EditSynonymCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditSynonymCell.h; sourceTree = "<group>"; };
+		83CC7E2112263F1C00FD0354 /* EditSynonymCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditSynonymCell.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* LocNotes-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "LocNotes-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				28EEBFDD1118E19E00187D67 /* CoreData.framework in Frameworks */,
+				8396F91E11EEFD6F00F1DF5D /* MessageUI.framework in Frameworks */,
+				8388D7E9121254ED00B4FAAB /* LocaytaSearch.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* LocNotes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2860E386111B897F00E27156 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				2860E387111B897F00E27156 /* AppDelegate_Phone.h */,
+				2860E388111B897F00E27156 /* AppDelegate_Phone.m */,
+				2860E389111B897F00E27156 /* MainWindow_Phone.xib */,
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		28EEBF621118D79A00187D67 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				2819307C112F81BE00ECF9B4 /* LocNotes.xcdatamodeld */,
+				28EEC0491118E28000187D67 /* AppDelegate_Shared.h */,
+				28EEC04A1118E28000187D67 /* AppDelegate_Shared.m */,
+				83A84C4911AA227B0048D9DF /* EditNoteViewController.h */,
+				83A84C4A11AA227B0048D9DF /* EditNoteViewController.m */,
+				83A84C4B11AA227B0048D9DF /* EditNoteViewController.xib */,
+				83CC7E2012263F1C00FD0354 /* EditSynonymCell.h */,
+				83CC7E2112263F1C00FD0354 /* EditSynonymCell.m */,
+				83CC7E1E12263F0F00FD0354 /* EditSynonymCell.xib */,
+				8396F63A11EDB20100F1DF5D /* InfoViewController.h */,
+				8396F63B11EDB20100F1DF5D /* InfoViewController.m */,
+				8396F63C11EDB20100F1DF5D /* InfoViewController.xib */,
+				8309F71A12542469003A5CE5 /* ManageSynonymsTableViewController.h */,
+				8309F71B12542469003A5CE5 /* ManageSynonymsTableViewController.m */,
+				83CC7D2D122602DB00FD0354 /* ManageSynonymsViewController.h */,
+				83CC7D2E122602DB00FD0354 /* ManageSynonymsViewController.m */,
+				83CC7D2F122602DB00FD0354 /* ManageSynonymsViewController.xib */,
+				83A84C2F11AA21110048D9DF /* NotesBrowserTableViewController.h */,
+				83A84C3011AA21110048D9DF /* NotesBrowserTableViewController.m */,
+				83A84C3111AA21110048D9DF /* NotesBrowserTableViewController.xib */,
+				831C720911EC0C8A00A53BB2 /* NotesBrowserViewController.h */,
+				831C720A11EC0C8A00A53BB2 /* NotesBrowserViewController.m */,
+				831C720B11EC0C8A00A53BB2 /* NotesBrowserViewController.xib */,
+				83A84C6911AA47190048D9DF /* Note.h */,
+				83A84C6A11AA47190048D9DF /* Note.m */,
+				83A84C6C11AA47570048D9DF /* Note+Management.h */,
+				83A84C6D11AA47570048D9DF /* Note+Management.m */,
+				83CA501811BE4AED0020745A /* SearchDatabaseRequester.h */,
+				83CA501911BE4AED0020745A /* SearchDatabaseRequester.m */,
+				83A667EC11AD264E0058823E /* SearchDatabaseUpdater.h */,
+				83A667ED11AD264E0058823E /* SearchDatabaseUpdater.m */,
+				83CC7CC81225FD9400FD0354 /* SettingsTableViewController.h */,
+				83CC7CC91225FD9400FD0354 /* SettingsTableViewController.m */,
+				83CC7CCA1225FD9400FD0354 /* SettingsTableViewController.xib */,
+				8396F8C611EEF8FC00F1DF5D /* ShareViewTableController.h */,
+				8396F8C711EEF8FC00F1DF5D /* ShareViewTableController.m */,
+				8396F8C811EEF8FC00F1DF5D /* ShareViewTableController.xib */,
+				83A6683911AE093E0058823E /* notes_search_schema.plist */,
+				8325D9E611C9CC2C00D83136 /* Entitlements.plist */,
+				8D1107310486CEB800E47090 /* LocNotes-Info.plist */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				83CC7CAD1225EF1A00FD0354 /* Images */,
+				2860E386111B897F00E27156 /* iPhone */,
+				29B97317FDCFA39411CA2CEA /* iPad */,
+				28EEBF621118D79A00187D67 /* Shared */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* LocNotes_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* AppDelegate_Pad.h */,
+				1D3623250D0F684500981E51 /* AppDelegate_Pad.m */,
+				28AD733E0D9D9553002E5188 /* MainWindow_Pad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8396F91D11EEFD6F00F1DF5D /* MessageUI.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				28EEBFDC1118E19E00187D67 /* CoreData.framework */,
+				8388D7E8121254ED00B4FAAB /* LocaytaSearch.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		83CC7CAD1225EF1A00FD0354 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				832EF16D123F1D3200FD8A64 /* Defaultipad-Landscape.png */,
+				832EF149123F1A8A00FD8A64 /* Defaultipad-Portrait.png */,
+				832EF13D123F18C700FD8A64 /* Default~iphone.png */,
+				832EF13E123F18C700FD8A64 /* Default~iphone@2x.png */,
+				832EF118123F135C00FD8A64 /* settings_icon.png */,
+				832EF119123F135C00FD8A64 /* settings_icon@2x.png */,
+				832EF0AA123EFD0200FD8A64 /* Icon-72.png */,
+				832EF0AB123EFD0200FD8A64 /* Icon-Small-50.png */,
+				832EF0AC123EFD0200FD8A64 /* Icon-Small.png */,
+				832EF0AD123EFD0200FD8A64 /* Icon-Small@2x.png */,
+				832EF0AE123EFD0200FD8A64 /* Icon.png */,
+				832EF0AF123EFD0200FD8A64 /* Icon@2x.png */,
+				832EF0A8123EFC0800FD8A64 /* iTunesArtwork */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* LocNotes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "LocNotes" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LocNotes;
+			productName = LocNotes;
+			productReference = 1D6058910D05DD3D006BFB54 /* LocNotes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Locayta Limited";
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "LocNotes" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* LocNotes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow_Pad.xib in Resources */,
+				2860E38B111B897F00E27156 /* MainWindow_Phone.xib in Resources */,
+				83A84C3311AA21110048D9DF /* NotesBrowserTableViewController.xib in Resources */,
+				83A84C4D11AA227B0048D9DF /* EditNoteViewController.xib in Resources */,
+				83A6683A11AE093E0058823E /* notes_search_schema.plist in Resources */,
+				831C720D11EC0C8A00A53BB2 /* NotesBrowserViewController.xib in Resources */,
+				8396F63E11EDB20100F1DF5D /* InfoViewController.xib in Resources */,
+				8396F8CA11EEF8FC00F1DF5D /* ShareViewTableController.xib in Resources */,
+				83CC7CCC1225FD9400FD0354 /* SettingsTableViewController.xib in Resources */,
+				83CC7D31122602DB00FD0354 /* ManageSynonymsViewController.xib in Resources */,
+				83CC7E1F12263F0F00FD0354 /* EditSynonymCell.xib in Resources */,
+				832EF0A9123EFC0800FD8A64 /* iTunesArtwork in Resources */,
+				832EF0B0123EFD0200FD8A64 /* Icon-72.png in Resources */,
+				832EF0B1123EFD0200FD8A64 /* Icon-Small-50.png in Resources */,
+				832EF0B2123EFD0200FD8A64 /* Icon-Small.png in Resources */,
+				832EF0B3123EFD0200FD8A64 /* Icon-Small@2x.png in Resources */,
+				832EF0B4123EFD0200FD8A64 /* Icon.png in Resources */,
+				832EF0B5123EFD0200FD8A64 /* Icon@2x.png in Resources */,
+				832EF11A123F135C00FD8A64 /* settings_icon.png in Resources */,
+				832EF11B123F135C00FD8A64 /* settings_icon@2x.png in Resources */,
+				832EF13F123F18C700FD8A64 /* Default~iphone.png in Resources */,
+				832EF140123F18C700FD8A64 /* Default~iphone@2x.png in Resources */,
+				832EF14A123F1A8A00FD8A64 /* Defaultipad-Portrait.png in Resources */,
+				832EF16E123F1D3200FD8A64 /* Defaultipad-Landscape.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* AppDelegate_Pad.m in Sources */,
+				28EEC04B1118E28000187D67 /* AppDelegate_Shared.m in Sources */,
+				2819307D112F81BE00ECF9B4 /* LocNotes.xcdatamodeld in Sources */,
+				2860E38A111B897F00E27156 /* AppDelegate_Phone.m in Sources */,
+				83A84C3211AA21110048D9DF /* NotesBrowserTableViewController.m in Sources */,
+				83A84C4C11AA227B0048D9DF /* EditNoteViewController.m in Sources */,
+				83A84C6B11AA47190048D9DF /* Note.m in Sources */,
+				83A84C6E11AA47570048D9DF /* Note+Management.m in Sources */,
+				83A667EE11AD264E0058823E /* SearchDatabaseUpdater.m in Sources */,
+				83CA501A11BE4AED0020745A /* SearchDatabaseRequester.m in Sources */,
+				831C720C11EC0C8A00A53BB2 /* NotesBrowserViewController.m in Sources */,
+				8396F63D11EDB20100F1DF5D /* InfoViewController.m in Sources */,
+				8396F8C911EEF8FC00F1DF5D /* ShareViewTableController.m in Sources */,
+				83CC7CCB1225FD9400FD0354 /* SettingsTableViewController.m in Sources */,
+				83CC7D30122602DB00FD0354 /* ManageSynonymsViewController.m in Sources */,
+				83CC7E2212263F1C00FD0354 /* EditSynonymCell.m in Sources */,
+				8309F71C12542469003A5CE5 /* ManageSynonymsTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../../../../../../Library/Frameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LocNotes_Prefix.pch;
+				INFOPLIST_FILE = "LocNotes-Info.plist";
+				PRODUCT_NAME = LocNotes;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release template */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = "~/src/locayta/locayta-svn/projects/prototypes/iphone/LocNotes/trunk/LocNotes/Entitlements.plist";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../../../../../../Library/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LocNotes_Prefix.pch;
+				INFOPLIST_FILE = "LocNotes-Info.plist";
+				PRODUCT_NAME = LocNotes;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release template";
+		};
+		8325D9DF11C9CAF600D83136 /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_DISPLAY_NAME_SUFFIX = "ß";
+				BUNDLE_ID_SUFFIX = .adhoc;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Chris Miles";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lstdc++",
+				);
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "3C7CC055-AF61-485D-B448-65D1F3C85930";
+				SDKROOT = iphoneos4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Ad Hoc";
+		};
+		8325D9E011C9CAF600D83136 /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = "~/src/locayta/locayta-svn/projects/prototypes/iphone/LocNotes/trunk/LocNotes/Entitlements.plist";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../../../../../../Library/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LocNotes_Prefix.pch;
+				INFOPLIST_FILE = "LocNotes-Info.plist";
+				PRODUCT_NAME = LocNotes;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Ad Hoc";
+		};
+		832EF6F3124745AB00FD8A64 /* App Store Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Locayta Limited";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lstdc++",
+				);
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "03B04C56-8129-4658-8014-3FB8F013739D";
+				SDKROOT = iphoneos4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "App Store Release";
+		};
+		832EF6F4124745AB00FD8A64 /* App Store Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = "~/src/locayta/locayta-svn/projects/prototypes/iphone/LocNotes/trunk/LocNotes/Entitlements.plist";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../../../../../../Library/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LocNotes_Prefix.pch;
+				INFOPLIST_FILE = "LocNotes-Info.plist";
+				PRODUCT_NAME = LocNotes;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "App Store Release";
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_DISPLAY_NAME_SUFFIX = "∆";
+				BUNDLE_ID_SUFFIX = .dev;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lstdc++",
+				);
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release template */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lstdc++",
+				);
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Release template";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "LocNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				8325D9E011C9CAF600D83136 /* Ad Hoc */,
+				832EF6F4124745AB00FD8A64 /* App Store Release */,
+				1D6058950D05DD3E006BFB54 /* Release template */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release template";
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "LocNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				8325D9DF11C9CAF600D83136 /* Ad Hoc */,
+				832EF6F3124745AB00FD8A64 /* App Store Release */,
+				C01FCF5008A954540054247B /* Release template */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release template";
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2819307C112F81BE00ECF9B4 /* LocNotes.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2870939E111907710040F596 /* LocNotes.xcdatamodel */,
+			);
+			currentVersion = 2870939E111907710040F596 /* LocNotes.xcdatamodel */;
+			name = LocNotes.xcdatamodeld;
+			path = Shared/LocNotes.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

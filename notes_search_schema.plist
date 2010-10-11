@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>lastUpdated</key>
+	<dict>
+		<key>numericslot</key>
+		<integer>2</integer>
+		<key>field</key>
+		<true/>
+	</dict>
+	<key>content</key>
+	<dict>
+		<key>field</key>
+		<true/>
+		<key>index</key>
+		<true/>
+		<key>spell</key>
+		<true/>
+	</dict>
+	<key>title</key>
+	<dict>
+		<key>field</key>
+		<true/>
+		<key>weight</key>
+		<integer>5</integer>
+		<key>index</key>
+		<true/>
+		<key>spell</key>
+		<true/>
+		<key>textslot</key>
+		<integer>1</integer>
+	</dict>
+	<key>id</key>
+	<dict>
+		<key>field</key>
+		<true/>
+		<key>id</key>
+		<true/>
+	</dict>
+</dict>
+</plist>
