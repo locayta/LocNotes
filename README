@@ -1,0 +1,30 @@
+Locayta Notes
+=============
+
+
+LocNotes is the source code to Locayta Notes, an iPad/iPhone
+note taking app incorporating the Locayta Search Mobile full
+text search library for iOS. The app is available for free
+in the App Store and the source code is released under open
+source as a reference for Locayta Search Mobile developers.
+
+
+App Store URL:
+
+  http://itunes.apple.com/gb/app/locayta-notes/id393819477
+
+Source code URL:
+
+  http://github.com/locayta/LocNotes
+
+LocNotes requires the Locayta Search Mobile framework to
+build.  The framework can be downloaded from:
+
+  http://www.locayta.com/ios-search-engine/locayta-search-mobile/locayta-search-mobile
+
+Download the Locayta Search Mobile SDK and mount the DMG.
+Copy "LocaytaSearch.framework" to ~/Library/Frameworks/
+(i.e. Library/Frameworks/ under your home directory - create
+the directory if it doesn't already exist).
+
+LocNotes should now build.
