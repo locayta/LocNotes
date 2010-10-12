@@ -34,6 +34,8 @@
 		832EF140123F18C700FD8A64 /* Default~iphone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 832EF13E123F18C700FD8A64 /* Default~iphone@2x.png */; };
 		832EF14A123F1A8A00FD8A64 /* Defaultipad-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 832EF149123F1A8A00FD8A64 /* Defaultipad-Portrait.png */; };
 		832EF16E123F1D3200FD8A64 /* Defaultipad-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 832EF16D123F1D3200FD8A64 /* Defaultipad-Landscape.png */; };
+		83398DA01263011000EF40B1 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 83398D9E1263011000EF40B1 /* LICENSE */; };
+		83398DA11263011000EF40B1 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 83398D9F1263011000EF40B1 /* README */; };
 		8388D7E9121254ED00B4FAAB /* LocaytaSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8388D7E8121254ED00B4FAAB /* LocaytaSearch.framework */; };
 		8396F63D11EDB20100F1DF5D /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8396F63B11EDB20100F1DF5D /* InfoViewController.m */; };
 		8396F63E11EDB20100F1DF5D /* InfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8396F63C11EDB20100F1DF5D /* InfoViewController.xib */; };
@@ -93,6 +95,8 @@
 		832EF13E123F18C700FD8A64 /* Default~iphone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default~iphone@2x.png"; path = "Images/Default~iphone@2x.png"; sourceTree = "<group>"; };
 		832EF149123F1A8A00FD8A64 /* Defaultipad-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Defaultipad-Portrait.png"; path = "Images/Defaultipad-Portrait.png"; sourceTree = "<group>"; };
 		832EF16D123F1D3200FD8A64 /* Defaultipad-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Defaultipad-Landscape.png"; path = "Images/Defaultipad-Landscape.png"; sourceTree = "<group>"; };
+		83398D9E1263011000EF40B1 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		83398D9F1263011000EF40B1 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		8388D7E8121254ED00B4FAAB /* LocaytaSearch.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocaytaSearch.framework; path = /Users/chris/Library/Frameworks/LocaytaSearch.framework; sourceTree = "<absolute>"; };
 		8396F63A11EDB20100F1DF5D /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
 		8396F63B11EDB20100F1DF5D /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
@@ -213,6 +217,8 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				83398D9E1263011000EF40B1 /* LICENSE */,
+				83398D9F1263011000EF40B1 /* README */,
 				83CC7CAD1225EF1A00FD0354 /* Images */,
 				2860E386111B897F00E27156 /* iPhone */,
 				29B97317FDCFA39411CA2CEA /* iPad */,
@@ -352,6 +358,8 @@
 				832EF140123F18C700FD8A64 /* Default~iphone@2x.png in Resources */,
 				832EF14A123F1A8A00FD8A64 /* Defaultipad-Portrait.png in Resources */,
 				832EF16E123F1D3200FD8A64 /* Defaultipad-Landscape.png in Resources */,
+				83398DA01263011000EF40B1 /* LICENSE in Resources */,
+				83398DA11263011000EF40B1 /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,7 +401,7 @@
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../../../../../../../../../Library/Frameworks\"",
+					"\"$(HOME)/Library/Frameworks\"",
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -412,7 +420,7 @@
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../../../../../../../../../Library/Frameworks\"",
+					"\"$(HOME)/Library/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = LocNotes_Prefix.pch;
@@ -455,7 +463,7 @@
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../../../../../../../../../Library/Frameworks\"",
+					"\"$(HOME)/Library/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = LocNotes_Prefix.pch;
@@ -495,7 +503,7 @@
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../../../../../../../../../Library/Frameworks\"",
+					"\"$(HOME)/Library/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = LocNotes_Prefix.pch;
