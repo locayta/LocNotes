@@ -4,7 +4,7 @@
 //
 //  Created by Chris Miles on 13/07/10.
 //
-//  Copyright (c) Locayta Limited 2010.
+//  Copyright (c) Locayta Limited 2010-2011.
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
 //  of this software and associated documentation files (the "Software"), to deal
@@ -24,6 +24,8 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 //  THE SOFTWARE.
 //
+
+#import <objc/message.h>
 
 #import "NotesBrowserViewController.h"
 
